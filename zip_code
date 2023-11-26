@@ -1,0 +1,2 @@
+#!/bin/bash
+zip -r app.zip . -x .git/ .git/**\* test/ test/**\* src/ src/**\* node_modules/ node_modules/**\*
